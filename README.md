@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1 align="center">
+  <img
+    src="public/banzaara_logo_transparent.svg"
+    alt="Banzaara"
+    width="240"
+    height="auto"
+    style="filter: invert(1);"
+  />
+</h1>
 
-## Getting Started
+Banzaara is an India-focused trip planning website that lets people **create and organize their own trips**.
 
-First, run the development server:
+Instead of being only a place to search for destinations or book travel, Banzaara focuses on giving travelers the tools and information they need to build a trip that fits their preferences.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## What is Banzaara?
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+With Banzaara, a user can create a trip by defining things such as:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* Destination and route
+* Travel dates
+* Number of travelers
+* Budget
+* Trip intention, such as honeymoon, relaxation, adventure, or religious travel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The user can then explore information related to their trip, including places to visit, accommodation options, transportation, weather, and other travel information, and add relevant items to their trip.
 
-## Learn More
+The trip is organized into a structured itinerary that the user can customize.
 
-To learn more about Next.js, take a look at the following resources:
+## Planning
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Banzaara supports both **manual planning and AI-assisted planning**.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Users can build their trip themselves by selecting and arranging different parts of their journey. They can also use AI to create a starting plan based on their requirements and then modify it according to their preferences.
 
-## Deploy on Vercel
+The goal is to keep the traveler in control of the final plan.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Collaboration
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Trips can be shared with other travelers.
+
+People can be invited to collaborate on a trip, with permissions determined by the trip creator. This allows groups to plan their journey together rather than keeping the entire plan with one person.
+
+## Budget & Expenses
+
+A trip can have a defined budget, allowing users to keep track of the estimated cost of their plan.
+
+Banzaara also includes expense-related planning for group trips, including splitting expenses between travelers.
+
+Expense tracking is optional, since travelers may not record every expense during a trip.
+
+## Trip Information
+
+Banzaara brings different types of travel information together while planning a trip, such as:
+
+* Places and attractions
+* Place descriptions and photos
+* Weather information
+* Transportation options
+* Accommodation information
+* Restaurants and other points of interest
+* Estimated costs
+
+The information can be added to the user's trip and organized around their itinerary.
+
+## Technology
+
+### Frontend
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* shadcn/ui
+* Motion
+
+### Backend
+
+* Next.js Route Handlers
+* TypeScript
+* Zod
+
+### Database
+
+* PostgreSQL
+* Neon
+
+### Caching
+
+* Redis
+
+### External Services
+
+Banzaara uses external APIs for travel-related information such as places, weather, photos, and transportation data.
+
+## Project Status
+ ![Project Status](https://img.shields.io/badge/Project_Status-Planning-blue)
+
+Banzaara is currently being developed as a trip planning project with an initial focus on **India**.
+
+The project is centered around exploring how travel information, itinerary planning, collaboration, budgeting, and AI-assisted planning can come together in one place.
+
+## Concept
+
+> **Plan the trip your way.**
+
+Banzaara is about giving travelers the information and tools to build their own journey rather than simply giving them a predefined itinerary.
