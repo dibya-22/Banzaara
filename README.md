@@ -1,12 +1,18 @@
-<h1 align="center">
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./public/banzaara_logo_dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="./public/banzaara_logo_light.svg"
+  />
   <img
-    src="public/banzaara_logo_transparent.svg"
+    src="./public/banzaara_logo_light.svg"
     alt="Banzaara"
     width="240"
-    height="auto"
-    style="filter: invert(1);"
   />
-</h1>
+</picture>
 
 Banzaara is an India-focused trip planning website that lets people **create and organize their own trips**.
 
