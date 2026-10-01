@@ -1,22 +1,104 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f7f5f0;
+  --foreground: #292824;
+  --card: #fcfaf6;
+  --card-foreground: #292824;
+  --primary: #c96b45;
+  --primary-foreground: #fff8f1;
+  --secondary: #e8e0d3;
+  --secondary-foreground: #514b43;
+  --muted: #ece9e2;
+  --muted-foreground: #77736b;
+  --accent: #d9a441;
+  --accent-foreground: #352817;
+  --destructive: #c9564d;
+  --destructive-foreground: #fff7f5;
+  --border: #ddd8ce;
+  --input: #e4e0d7;
+  --ring: #c96b45;
+}
+
+.light {
+  --background: #EAF4FB;
+  --foreground: #183B56;
+
+  --card: #F8FBFD;
+  --card-foreground: #183B56;
+
+  --primary: #2F80C0;
+  --primary-foreground: #FFFFFF;
+
+  --secondary: #D7E9F7;
+  --secondary-foreground: #24516F;
+
+  --muted: #E1EEF7;
+  --muted-foreground: #607D94;
+
+  --accent: #5BA4D0;
+  --accent-foreground: #FFFFFF;
+
+  --destructive: #C95757;
+  --destructive-foreground: #FFFFFF;
+
+  --border: #C7DCEB;
+  --input: #DCEBF5;
+  --ring: #2F80C0;
+}
+
+.dark {
+  --background: #0F2438;
+  --foreground: #DCEBF5;
+
+  --card: #162F46;
+  --card-foreground: #DCEBF5;
+
+  --primary: #4B91C7;
+  --primary-foreground: #F7FBFE;
+
+  --secondary: #234866;
+  --secondary-foreground: #C7DDEC;
+
+  --muted: #1B3A53;
+  --muted-foreground: #91B0C7;
+
+  --accent: #4F8FB8;
+  --accent-foreground: #F4F9FC;
+
+  --destructive: #C86666;
+  --destructive-foreground: #FFF7F7;
+
+  --border: #2B4B64;
+  --input: #1D3D57;
+  --ring: #4B91C7;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html,
+body {
+  min-height: 100%;
 }
 
 body {
